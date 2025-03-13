@@ -18,11 +18,11 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
-    compileSdkVersion safeExtGet('FaceDetection_compileSdkVersion', 29)
-    buildToolsVersion safeExtGet('FaceDetection_buildToolsVersion', '29.0.2')
+    compileSdkVersion safeExtGet('FaceDetection_compileSdkVersion', 34)
+    buildToolsVersion safeExtGet('FaceDetection_buildToolsVersion', '34.0.0')
     defaultConfig {
-        minSdkVersion safeExtGet('FaceDetection_minSdkVersion', 16)
-        targetSdkVersion safeExtGet('FaceDetection_targetSdkVersion', 29)
+        minSdkVersion safeExtGet('FaceDetection_minSdkVersion', 23)
+        targetSdkVersion safeExtGet('FaceDetection_targetSdkVersion', 30)
         versionCode 1
         versionName "1.0"
 
